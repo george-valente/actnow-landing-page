@@ -212,7 +212,12 @@ footer a:hover{
     }
 }
 
-/* preciso de uma media query para centralizar o texto que muda em telas menores */
+@media(max-width: 700px){
+    .text-changing{
+        display: flex; 
+        justify-content: center;
+    }
+}
 
 
 #create-project-landing{
